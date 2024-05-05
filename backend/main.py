@@ -5,7 +5,7 @@ from database import session
 from database.session import Base,engine
 import schemas,models
 from models import Notes
-from .router import notes
+from router import notes
 
 
 def create_table():
